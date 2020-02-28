@@ -14,9 +14,8 @@ import bodyParser from "body-parser";
 import { localsMiddleware } from "./middlewares";
 import routes from "./routes";
 import userRouter from "./routers/userRouter";
-import videoRouter from "./routers/videoRouter";
 import globalRouter from "./routers/globalRouter";
-
+import videoRouter from "./routers/videoRouter";
 
 //express를 실행한 결과를 app상수로 만듦.
 const app = express(); // 실행
